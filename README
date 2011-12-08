@@ -1,0 +1,23 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3842
+
+nose.vim
+
+A simple compiler for executing nosetests on VIM. Originally written by Olivier Le Thanh Duong at and modified by lambdalisue. Useful to use with vim-makegreen
+
+See http://blog.staz.be/?post/2010/09/04/Python-unit-test-and-vim for find how to use it with vim-makegreen
+nose-machineout
+
+modified version use nose-machineout for convinience so you have to install it as well as nose:
+
+sudo pip install nose
+sudo pip install git+git://github.com/lambdalisue/nose-machineout.git#egg=nose_machineout
+
+how to install
+
+use vundle or pathogen is recommended or simply extract to your vim directory
+
+and write the following code to your ftplugin/python.vim:
+
+set compiler=nose
+
+Developed at https://github.com/lambdalisue/nose.vim
